@@ -6,7 +6,12 @@ namespace CatWorx.BadgeMaker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string greeting = "hello";
+            greeting = greeting + "world";
+            Console.WriteLine("greeting" + greeting);
+            Console.WriteLine($"greeting {greeting}");
+            Console.WriteLine("greeting: {0}", greeting);
+            //Console.WriteLine("Hello World!");
         }
     }
 }
