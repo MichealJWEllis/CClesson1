@@ -71,7 +71,7 @@ namespace CatWorx.BadgeMaker
             // string secondFood = favFoods[1];
             // string thirdFood = favFoods[2];
             // Console.WriteLine("I like {0}, {1},and {2}", firstFood, secondFood, thirdFood);
-
+            // Changes made for git test
             List<string> employees = new List<string>() { "adam", "amy" };
 
             employees.Add("barbara");
